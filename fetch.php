@@ -17,6 +17,7 @@ while($row = $result->fetch_assoc()) {
     <td>{$row['location']}</td>
     <td>{$row['data_value']}</td>
     <td>{$row['date_created']}</td>
+    td><a href='delete.php?id={$row['id']}'>Delete</a></td>
     </tr>";
 }
 
